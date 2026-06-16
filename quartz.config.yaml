@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Emil Funk
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Inter
-      body: Inter
-      code: JetBrains Mono
+      header: Schibsted Grotesk
+      body: Source Sans Pro
+      code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#fafafa"
-        lightgray: "#eaeaea"
-        gray: "#8e8e8e"
-        darkgray: "#222222"
-        dark: "#000000"
-        secondary: "#000000"
-        tertiary: "#6e6e6e"
-        highlight: "rgba(0, 0, 0, 0.04)"
-        textHighlight: "#ffe62988"
+        light: "#faf8f8"
+        lightgray: "#e5e5e5"
+        gray: "#b8b8b8"
+        darkgray: "#4e4e4e"
+        dark: "#2b2b2b"
+        secondary: "#284b63"
+        tertiary: "#84a59d"
+        highlight: rgba(143, 159, 169, 0.15)
+        textHighlight: "#fff23688"
       darkMode:
-        light: "#0b0b0b"
-        lightgray: "#222222"
-        gray: "#707070"
-        darkgray: "#dddddd"
-        dark: "#ffffff"
-        secondary: "#ffffff"
-        tertiary: "#a0a0a0"
-        highlight: "rgba(255, 255, 255, 0.04)"
-        textHighlight: "#ffe62944"
+        light: "#161618"
+        lightgray: "#393639"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#7b97aa"
+        tertiary: "#84a59d"
+        highlight: rgba(143, 159, 169, 0.15)
+        textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
