@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: emilfunk.github.io/quartz
+  baseUrl: emilfunk.github.io/quartz-mainbrain
   ignorePatterns:
     - private
     - templates
